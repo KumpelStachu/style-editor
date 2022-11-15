@@ -314,7 +314,7 @@ ${Object.entries(form.values.styles ?? {})
 									{ value: 'inset', label: 'Wklęsłe' },
 									{ value: 'outset', label: 'Wypukłe' },
 								]}
-								label="Szerokość"
+								label="Styl"
 								placeholder="border-style"
 								{...form.getInputProps('styles.borderStyle')}
 							/>
